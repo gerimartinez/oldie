@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dosis&family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dosis&family=PT+Serif:ital@1&family=Paytone+One&display=swap');
+
+.containerHome {
+    padding:  160px 0px 8px 0px;
+}
+.containerBanner {
+    width: 100%;
+}
+
+.bannerImg {
+    width: 100%;
+}
+
+.titleBanner {
+    font-family: "Belleza";
+    font-weight: 500;
+}
+.banner {
+    padding: 1em 0em 1em 0em;
+    background-color: #1B5842;
+    color: #CA3E1B;
+    font-family: "Paytone One";
+    font-size: 3em;
+    letter-spacing: 0.1ch;
+}
+.pBanner {
+    font-family: "Dosis";
+}
+.tituloCuadricula {
+    padding-top: 60px;
+}
+
+.containerCuadricula {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadriculaImg {
+    padding: 5px 10px 5px 10px;
+    width: 45%;
+}
+
+.titleNew {
+    padding-bottom: 2em;
+    padding-top: 3em;
+}
+.containerNew {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.newImg {
+    width: 20em;
+}
+
+.titleProduct {
+    font-family: "Dosis";
+    font-weight: 400;
+}
+.precioProd {
+    font-family: "Belleza";
+    font-size: 25px;
+    letter-spacing: 0.1ch;
+}
+
+.btnShop {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Dosis";
+    font-size: 14px;
+    height: auto!important;
+    line-height: 17px;
+    margin: 0;
+    min-width: 150px;
+    outline: none;
+    padding: 16px 20px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all .3s ease-in-out;
+}
+
+.btnShop:hover {
+    text-decoration:none;
+    background-color: #1B5842;
+    border-color: #1B5842;
+    color: black;
+    cursor: pointer;
+}
+
+.containerIg {
+    padding-top: 10em;
+}
+
+.divIg {
+    background-color: #1B5842;
+    padding: 40px 0px 40px 0px;
+}
+
+.containerWords {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.svgIg {
+    margin-right: 5px;
+    color: white;
+}
+.nombreIg {
+    font-family: "Belleza";
+    color: white;
+}
