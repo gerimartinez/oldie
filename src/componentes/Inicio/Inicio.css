@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dosis&family=PT+Serif:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Dosis&family=PT+Serif:ital@1&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Changa+One&family=Dosis&family=PT+Serif:ital@1&family=Paytone+One&display=swap');
 
 .containerHome {
     padding:  160px 0px 8px 0px;
@@ -15,17 +16,19 @@
 .titleBanner {
     font-family: "Belleza";
     font-weight: 500;
+    font-size: 20px;
 }
 .banner {
-    padding: 1em 0em 1em 0em;
+    padding: 1.3em 0em 0.8em 0em;
     background-color: #1B5842;
     color: #CA3E1B;
-    font-family: "Paytone One";
+    font-family: "Changa One";
     font-size: 3em;
     letter-spacing: 0.1ch;
 }
 .pBanner {
     font-family: "Dosis";
+    font-size: 18px;
 }
 .tituloCuadricula {
     padding-top: 60px;
@@ -39,7 +42,7 @@
 
 .cuadriculaImg {
     padding: 5px 10px 5px 10px;
-    width: 45%;
+    width: 42%;
 }
 
 .titleNew {
@@ -53,6 +56,7 @@
     align-items: center;
     max-width: 1100px;
     margin: auto;
+    padding-bottom: 10em;
 }
 .newImg {
     width: 20em;
@@ -101,6 +105,7 @@
 
 .containerIg {
     padding-top: 10em;
+    padding-bottom: 5em;
 }
 
 .divIg {
@@ -122,4 +127,58 @@
 .nombreIg {
     font-family: "Belleza";
     color: white;
+}
+.svgIg:hover {
+    color: #CA3E1B;
+    cursor: pointer;
+}
+.nombreIg:hover {
+    color: #CA3E1B;
+    cursor: pointer;
+}
+.containerEnvios {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5em;
+    margin: 10px;
+   
+}
+.iconContainer {
+    padding-bottom: 1em;
+}
+.iconContainerPago {
+    padding-bottom: 2em;
+}
+.pago {
+    padding-top: 20px;
+}
+
+.titleSobre {
+    font-family: "Dosis";
+    color: #CA3E1B;
+    font-size: 1.7em;
+}
+
+.sobreOldie {
+    font-family: "Belleza";
+    font-size: 3em;
+    font-weight: 600;
+    color: #CA3E1B;
+
+
+}
+.containerOldie {
+    background-color: #1B5842;
+    padding: 2em 0em 2em 0em;
+}
+
+
+.containerCar {
+    display: flex;
+    padding: 10em 0em 0em 0em;
+    width: 100%;
+}
+
+.carImg {
+    width: 99%;
 }
