@@ -5,10 +5,16 @@
 
 .footerContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1B5842;
-    padding: 50px 0px 50px 0px;
+    padding: 90px 0px 90px 0px;
+}
+.containerInfo {
+   margin: 1em;
+}
+.containerRedes {
+    margin-right: 1em;
 }
 .title-footer {
     list-style: none;
@@ -24,11 +30,15 @@
    font-family: "Dosis";
    font-size: 20px;
    font-weight: 500;
-  
+   align-items: start;
    padding-bottom: 10px;
    color: white;
+   text-decoration: none;
 } 
-
+.text-footer:hover {
+    color: #CA3E1B;
+    cursor: pointer;
+}
 .iconFooter {
     margin-left: 1em;
    

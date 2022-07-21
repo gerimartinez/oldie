@@ -1,0 +1,62 @@
+.containerItemList {
+    padding-top: 10em;
+}
+
+.divCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 10px;
+   
+}
+
+
+.navLink-categorias {
+    color: #3A314C;
+    font-family: "Belleza";
+    font-size: 1.3em;
+    padding-bottom: 2em;
+    padding: 10px 10px;
+    text-decoration:none;
+} 
+
+.navLink-categorias:hover {
+    transform: scale(1.2);
+    font-weight: bolder;
+    color: #3A314C;
+}
+
+.headerNav-Cat {
+    padding-bottom: 2em;
+}
+
+.btn-categorias {
+    padding: 10px auto;
+   background-color: #C3ACE9;
+   border-color: #C3ACE9;
+    
+}
+.btn-categorias:hover {
+    background-color: #C3ACE9;
+    border-color: #C3ACE9;
+    color: black;
+}
+
+.btn-categorias:active{
+    background-color: #C3ACE9;
+    border-color: #C3ACE9;
+    color: black;
+}
+
+.contDropdown {
+    padding: 2em 1em;
+    margin: 10px auto;
+    padding-bottom: 3em;
+    
+}
+.btn-check:checked,
+  .btn-check:active {
+    color: #fff;
+    background-color: #C3ACE9;
+    border-color: #C3ACE9;}

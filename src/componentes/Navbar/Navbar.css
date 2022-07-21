@@ -9,7 +9,7 @@
      display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
-        padding: 48px 0px 8px 0px;
+        padding: 0px 0px 8px 0px;
         margin: 0 auto;
     
 }
@@ -29,21 +29,29 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 .navLink {
     margin-right: 40px;
     text-transform: uppercase;
     color: #000;
     font-weight: 500;
-    padding-bottom: 50px;
+  
     font-size: 14px;
     line-height: 15px;
     border-bottom: 2px solid transparent;
     transition: border 0.3s ease-in-out;
     width: 100%;
+    text-decoration: none;
 }
 
+.navLink:hover {
+    color: #CA3E1B;
+}
+.icon:hover {
+    color:#CA3E1B;
+}
 .headerNav {
     display: flex;
     flex-direction: row;
@@ -75,9 +83,7 @@
     -webkit-appearance: button;
     width: 10rem;   
 }
-.logo {
-    padding-bottom: 50px;
-}
+
 .logoImg {
     width: 100px;
 }

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Changa+One&family=Dosis&family=PT+Serif:ital@1&family=Paytone+One&display=swap');
 
 .containerHome {
-    padding:  160px 0px 8px 0px;
+    padding:  60px 0px 8px 0px;
 }
 .containerBanner {
     width: 100%;
@@ -50,7 +50,6 @@
     padding-top: 3em;
 }
 .containerNew {
-
     display: flex;
     justify-content: space-between;
     align-items: center;

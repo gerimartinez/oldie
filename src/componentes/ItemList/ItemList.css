@@ -1,0 +1,9 @@
+.h2Productos {
+    margin: 20px 30px;
+
+}
+
+.divCard {
+        display: flex;
+        justify-content: space-evenly;
+}

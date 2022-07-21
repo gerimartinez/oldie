@@ -1,30 +1,35 @@
 
 import "./Navbar.css"
 import { BiSearchAlt, BiCart, BiHeart } from "react-icons/bi";
+import { Link } from "react-router-dom";
+import { CartWidget } from "../CartWidget/CartWidget";
 
-
-const Navbar = () => {
+export const Navbar = () => {
     return (
         <header>
             <div className="headerContainer">
                 <div className="headerLinks">
                     <nav className="headerNav">
-                        <p className="navLink">
+                        <Link to={"/productos"} className="navLink">
                             Shop
-                        </p>
-                        <p className="navLink">
+                        </Link>
+                        <Link to={"/about"} className="navLink">
                             About
-                        </p>
-                        <p className="navLink">
+                        </Link>
+                        <Link to={"/contacto"} className="navLink">
                             Contact
-                        </p>
+                        </Link>
+                        
+                        
                     </nav>
                 </div>
 
                 <div className="logo">
-                    {/* <p className="tituloHeader">OLDIE BUT GOLDIE</p> */}
-                    <img src="./imagenes/logo1.png" className="logoImg"></img>
+                   <Link to={"/"}>
+                        <img src="./imagenes/logo1.png" className="logoImg"></img>
+                    </Link>
                 </div> 
+                
                 <div className="actionContainers">
                     <button className="iconButton">
                         <BiSearchAlt className="icon"/>
@@ -33,7 +38,7 @@ const Navbar = () => {
                         <BiHeart className="icon"/>
                     </a>
                     <button className="iconButton">
-                        <BiCart className="icon"/>
+                        <CartWidget/>
                         <div className="cart">
                             <span>
 

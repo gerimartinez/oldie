@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+
+.card {
+    margin: 10px;
+    width: 35%;
+    padding-bottom: 10em;
+}
+
+.imagenCard {
+    width: 19em;
+}
+
+.titleProduct {
+    font-family: "Dosis";
+    font-weight: 400;
+    text-align: center;
+}
+.precioProd {
+    font-family: "Belleza";
+    font-size: 25px;
+    letter-spacing: 0.1ch;
+    text-align: center;
+}
+.containerInfo {
+    display: block;
+    justify-content: center;
+}
+.btnShop {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Dosis";
+    font-size: 14px;
+    height: auto!important;
+    line-height: 17px;
+    margin: 0;
+    min-width: 150px;
+    outline: none;
+    padding: 16px 20px 15px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: all .3s ease-in-out;
+}
+
+.btnShop:hover {
+    text-decoration:none;
+    background-color: #1B5842;
+    border-color: #1B5842;
+    color: black;
+    cursor: pointer;
+}
+
+
+.btnItem {
+    width: 7em;
+    margin: 10px 10px;
+    background-color: #1B5842;
+    border-color: #1B5842;
+    font-size: 1.2em;
+    font-family: "PT Serif";
+    letter-spacing: 0.01cm; }
+
+.btnItem:hover {
+    color: black;
+    background-color: #1B5842;
+    border-color: #1B5842;}
+
+.contBoton {
+    display: flex;
+    justify-content: center;
+    text-decoration:none;}

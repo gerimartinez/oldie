@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 
 
 
-const Inicio = () => {
+export const Inicio = () => {
     return (
         <div className="containerHome">
             <div>
@@ -60,12 +60,12 @@ const Inicio = () => {
                 <div>
                     <img
                      className="newImg"
-                     src="./imagenes/woman1.jpeg"
+                     src="./imagenes/woman4.jpeg"
                      alt="Remera 3"></img>
 
-                  <h2 className="titleProduct">Conjunto Wish</h2>
+                  <h2 className="titleProduct">Sweater Roll</h2>
                   <hr/>
-                  <p className="precioProd">$14900</p>
+                  <p className="precioProd">$6850</p>
                 
                   <Button variant="primary" className="btnShop">Shop now</Button>
                 </div>
@@ -181,4 +181,3 @@ const Inicio = () => {
         
     )
 }
-export default Inicio

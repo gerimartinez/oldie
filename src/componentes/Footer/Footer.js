@@ -3,7 +3,7 @@ import {BsInstagram} from "react-icons/bs"
 import {BsWhatsapp } from "react-icons/bs"
 import {FiFacebook} from "react-icons/fi"
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <footer>
             <div className="footerContainer">
@@ -18,7 +18,7 @@ const Footer = () => {
                  </nav>
                 </div>
 
-                <div className="containerInfo">
+                <div className="containerAyuda">
                     <ul>
                         <li className="title-footer">Ayuda</li>
                         <li className="text-footer">oldiebtgolide@gmail.com</li>
@@ -26,12 +26,18 @@ const Footer = () => {
                         <li className="text-footer">Envios</li>
                     </ul>
                 </div>
-                <div className="containerInfo">
+                <div className="containerRedes">
                     <ul>
-                        <li className="title-footer">Enterate de todo</li>  
-                        <li className="text-footer">Instagram <BsInstagram className="iconFooter"></BsInstagram></li>
-                        <li className="text-footer">Facebook <FiFacebook className="iconFooter"/></li>
-                        <li className="text-footer">Whatsapp <BsWhatsapp className="iconFooter"/></li>
+                        <li className="title-footer">Enterate de todo</li>
+                        <li className="text-footer">
+                            <a href="https://www.instagram.com/oldiebutgoldieeee/" target="_blank" className="text-footer">Instagram <BsInstagram className="iconFooter"></BsInstagram></a>
+                        </li> 
+                        <li className="text-footer">
+                           <a href="https://www.facebook.com/" target="_blank" className="text-footer">Facebook <FiFacebook className="iconFooter"/></a>
+                        </li> 
+                        <li className="text-footer">
+                           <a href="https://wa.me/543364200768?text=Quisiera%20consultar%20sobre%20la%20esta%20de%20prenda" target="_blank" className="text-footer">Whatsapp <BsWhatsapp className="iconFooter"/></a>
+                        </li>
                     </ul>
                 </div>
             </div>
